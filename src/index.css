@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Get Schwifty';
+    src: url('./assets/fonts/get_schwifty.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-rick-theme {
+    background-image: url('./assets/images/background.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
